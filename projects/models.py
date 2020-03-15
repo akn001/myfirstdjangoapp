@@ -9,4 +9,5 @@ class projects(models.Model):
     pub_date = models.DateTimeField()
 
     def __str__(self):
+
         return self.title
